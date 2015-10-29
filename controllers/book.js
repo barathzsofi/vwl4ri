@@ -7,7 +7,7 @@ var decorateBooks = require('../viewmodels/book');
 router.get('/list', function (req, res) {
 
     req.app.models.book.find().then(function (books) {
-        console.log(books);
+       // console.log(books);
         
         res.render('books/list', {
             books: decorateBooks(books),
@@ -32,7 +32,6 @@ router.get('/new', function(req, res) {
 
 router.get('/delete/:id', function(req, res) {
     var id = req.params.id;
-    console.log(id);
     req.app.models.book.destroy({ id: id})
     .then(function (book){
         req.flash('info', 'Sikeres törlés!');
@@ -60,7 +59,7 @@ router.get('/:id', function(req, res) {
 
 // Hiba felvitele POST
 router.post('/new', function(req, res) {
-    console.log(req.body);
+    //console.log(req.body);
     
    // adatok ellenőrzése
     req.checkBody('iro', 'Hibás író').notEmpty().withMessage('Kötelező megadni!');
@@ -71,7 +70,7 @@ router.post('/new', function(req, res) {
     
     
     var validationErrors = req.validationErrors(true);
-    console.log(validationErrors);
+    //console.log(validationErrors);
     
     if (validationErrors) {
         // űrlap megjelenítése a hibákkal és a felküldött adatokkal
