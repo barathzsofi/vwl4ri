@@ -5,6 +5,14 @@
   "main": "server.js",
   "repository": "",
   "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  
+  
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  
+  
   "dependencies": {
     "async": "~0.2.8",
     "bcryptjs": "^2.3.0",
@@ -22,5 +30,8 @@
     "sails-postgresql": "^0.10.16",
     "socket.io": "~0.9.14",
     "waterline": "^0.10.26"
+  },
+  "engines": {
+      "node": "0.8.14"
   }
 }
