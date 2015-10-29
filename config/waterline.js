@@ -26,7 +26,9 @@ var config = {
             host: 'localhost',
             user: 'ubuntu',
             password: 'ubuntu',
-            //ssl      : true,
+            url: process.env.DATABASE_URL,
+            pool: false,
+            ssl      : true,
         }
     },
     defaults: {
