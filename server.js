@@ -132,13 +132,20 @@ orm.initialize(waterlineConfig, function(err, models) {
     if(err) throw err;
     app.models = models.collections;
     app.connections = models.connections;
-    var port = process.env.PORT;
+    
+    /*var port = process.env.PORT;
     var host = process.env.IP;
     var server = app.listen(port, host, function(){
         //console.log('Server is started.');
         
-    });
+    });*/
     //console.log("ORM is started.");
+    
+    var port = process.env.PORT || 3000;
+    app.listen(port, function () {
+        console.log('Server is started.');
+    });
+    
 });
 
 
