@@ -26,6 +26,7 @@ var config = {
             host: 'localhost',
             user: 'ubuntu',
             password: 'ubuntu',
+            ssl      : true,
         }
     },
     defaults: {
