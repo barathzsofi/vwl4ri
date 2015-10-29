@@ -1,0 +1,224 @@
+{
+  "data": {
+    "comment": [],
+    "book": [
+      {
+        "status": "new",
+        "writer": "steph",
+        "booktitle": "anna",
+        "date": "2015-10-28T15:31:53.607Z",
+        "createdAt": "2015-10-28T15:31:53.608Z",
+        "updatedAt": "2015-10-29T15:19:45.435Z",
+        "id": 15,
+        "other": "angol, dedikált"
+      },
+      {
+        "status": "new",
+        "writer": "steph",
+        "booktitle": "isla",
+        "date": "2015-10-28T15:32:13.420Z",
+        "createdAt": "2015-10-28T15:32:13.421Z",
+        "updatedAt": "2015-10-29T15:19:26.155Z",
+        "id": 17,
+        "other": "papírkötésű"
+      },
+      {
+        "status": "new",
+        "writer": "steph",
+        "booktitle": "lola",
+        "date": "2015-10-28T20:37:54.463Z",
+        "createdAt": "2015-10-28T20:37:54.466Z",
+        "updatedAt": "2015-10-29T15:19:06.667Z",
+        "id": 31,
+        "other": "angol"
+      },
+      {
+        "status": "new",
+        "writer": "jk",
+        "booktitle": "hp7",
+        "other": "angol, már használt",
+        "date": "2015-10-29T13:37:18.094Z",
+        "createdAt": "2015-10-29T13:37:18.097Z",
+        "updatedAt": "2015-10-29T15:18:44.756Z",
+        "id": 53
+      },
+      {
+        "status": "new",
+        "writer": "jk",
+        "booktitle": "hp1",
+        "other": "angol, max 3000Ft",
+        "date": "2015-10-29T15:18:04.118Z",
+        "createdAt": "2015-10-29T15:18:04.121Z",
+        "updatedAt": "2015-10-29T15:18:04.121Z",
+        "id": 56
+      }
+    ],
+    "user": [
+      {
+        "surname": "abc1",
+        "forename": "abc1",
+        "neptun": "abc1",
+        "password": "$2a$10$kcAAwpTQrmE6nQa0YiRKOO2OqAy5r7vOgLP7.7YT1mT1kBWEOZvz6",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-28T21:26:17.643Z",
+        "updatedAt": "2015-10-28T21:26:17.643Z",
+        "id": 1
+      },
+      {
+        "surname": "abc2",
+        "forename": "abc2",
+        "neptun": "abc2",
+        "password": "$2a$10$0UMMTaSltYJeL2fJCirN.udQM9.xu.AUlQcPb1Ryy0hQnatOXDlE.",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-29T11:25:57.219Z",
+        "updatedAt": "2015-10-29T11:25:57.219Z",
+        "id": 2
+      },
+      {
+        "surname": "abc7",
+        "forename": "abc7",
+        "username": "abc7",
+        "password": "$2a$10$06Kv5VE3fTgbpasKqVr3/.wDnRhcyvZl4ej5Yx.X07NMTxNPK39Xy",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-29T15:12:46.678Z",
+        "updatedAt": "2015-10-29T15:12:46.678Z",
+        "id": 3
+      },
+      {
+        "surname": "abc8",
+        "forename": "abc8",
+        "username": "abc8",
+        "password": "$2a$10$eEzisxFHPVgjm/528bjmXerWtirl8gsn4PlwktRTNbxU5PuFku7e.",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-29T15:51:17.318Z",
+        "updatedAt": "2015-10-29T15:51:17.318Z",
+        "id": 4
+      }
+    ]
+  },
+  "schema": {
+    "comment": {
+      "date": {
+        "type": "datetime"
+      },
+      "text": {
+        "type": "string"
+      },
+      "username": {
+        "type": "string",
+        "defaultsTo": "anonymous (test)"
+      },
+      "book": {
+        "type": "integer",
+        "model": "book",
+        "foreignKey": true,
+        "alias": "book"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "book": {
+      "date": {
+        "type": "datetime"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "new",
+          "assigned",
+          "ready",
+          "rejected",
+          "pending"
+        ]
+      },
+      "writer": {
+        "type": "string"
+      },
+      "booktitle": {
+        "type": "string"
+      },
+      "other": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "username": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "avatar": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "riporter",
+          "operator"
+        ],
+        "defaultsTo": "riporter"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "book": {
+      "id": 56
+    },
+    "comment": {},
+    "user": {
+      "id": 4
+    }
+  }
+}

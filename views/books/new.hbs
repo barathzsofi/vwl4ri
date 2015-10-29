@@ -1,0 +1,68 @@
+
+<div class="page-header">
+    <h1>Új keresés</h1>
+</div>
+
+
+<form class="form-horizontal" method="post">
+    <fieldset>
+        <div class="form-group
+            {{#if validationErrors.iro}}
+                has-error
+            {{/if}}
+        ">
+            <label for="iro" class="col-lg-2 control-label">Író</label>
+            <div class="col-lg-10">
+                <input class="form-control" id="iro" name="iro" placeholder="pl. Stephanie perkins" type="text" value="{{data.iro}}">
+                {{#if validationErrors.iro}}
+                    <span class="help-block">{{validationErrors.iro.msg}}</span>
+                {{/if}}
+            </div>
+        </div>
+        <div class="form-group
+            {{#if validationErrors.cim}}
+                has-error
+            {{/if}}
+        ">
+            <label for="cim" class="col-lg-2 control-label">Cím</label>
+            <div class="col-lg-10">
+                <textarea class="form-control" rows="3" id="cim" name="cim">{{data.cim}}</textarea>
+                <span class="help-block">Meg kell adni a pontos címet.</span>
+                {{#if validationErrors.cim}}
+                    <span class="help-block">{{validationErrors.cim.msg}}</span>
+                {{/if}}
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class="form-group
+            {{#if validationErrors.egyeb}}
+                has-error
+            {{/if}}
+        ">
+            <label for="egyeb" class="col-lg-2 control-label">Egyéb</label>
+            <div class="col-lg-10">
+                <textarea class="form-control" rows="10" id="egyeb" name="egyeb" placeholder="pl. angol, első kiadás, maximum milyen áron...">{{data.egyeb}}</textarea>
+                <span class="help-block">Valamit meg kell adni!</span>
+                {{#if validationErrors.cim}}
+                    <span class="help-block">{{validationErrors.egyeb.msg}}</span>
+                {{/if}}
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="reset" class="btn btn-default">Cancel</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </fieldset>
+</form>   
+    </body>
+    
+</html>
