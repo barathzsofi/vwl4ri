@@ -5,12 +5,7 @@
   "main": "server.js",
   "repository": "",
   "author": "Mostafa Eweda <mo.eweda@gmail.com>",
-  
-  
-  "scripts": {
-    "start": "node app"
-  },
-  
+
   
   "dependencies": {
     "async": "~0.2.8",
@@ -29,8 +24,5 @@
     "sails-postgresql": "^0.10.16",
     "socket.io": "~0.9.14",
     "waterline": "^0.10.26"
-  },
-  "engines": {
-      "node": "4.2.1"
   }
 }
