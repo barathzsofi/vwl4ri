@@ -1,7 +1,9 @@
 {
   "name": "chat-example",
   "version": "0.0.0",
-  
+  "scripts": {
+    "start": "node server.js"
+  },
   "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
   "main": "server.js",
   "author": "Mostafa Eweda <mo.eweda@gmail.com>",
@@ -29,9 +31,7 @@
   "engines": {
     "node": "4.1.1"
   },
-  "scripts": {
-    "start": "node index.js"
-  },
+  
   "devDependencies": {},
   "license": "ISC"
 }
