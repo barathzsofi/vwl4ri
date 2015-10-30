@@ -29,7 +29,7 @@
         + keresés törlése
         
         Keresés felvitelének folyamata:
-            ![Keresés felvitelének folyamata](public/folymeghat.jpg)
+            ![Keresés felvitelének folyamata](public/folyamatmeghat.png)
 
 
 ##Tervezés
@@ -55,15 +55,25 @@
 
     - Végpontok
         GET /: főoldal
+        
         GET /login: bejelentkező oldal
+        
         POST /login: bejelentkezési adatok felküldése
+        
         GET /login/signup: regisztáló oldal
+        
         POST /login/signup: regisztrálási adatok felküldése
+        
         GET /books/list: kereséslista oldal
+        
         GET /books/new: új keresés felvitele
+        
         POST /books/new: új keresés felvitele, adatok küldése
+        
         GET /books/:id: keresés adatait megváltoztató oldal
+        
         POST /books/:id: megváltoztatott adatok felküldése
+        
         GET /delete/:id: keresés törlése
         
 
@@ -76,8 +86,11 @@
 
 3. Osztálymodell
     - Adatmodell
+        ![Adatmodell](public/adatmodell.png)
     - Adatbázisterv
+        ![Adatbázisterv](public/adatbterv.png)
     - Állapotdiagram
+        ![Állapotdiagram](public/allapotdiagram.png)
 
 4. Dinamikus működés
     - Szekvenciadiagram
