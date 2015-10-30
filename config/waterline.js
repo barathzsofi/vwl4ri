@@ -32,8 +32,8 @@ var config = {
         }
     },
     defaults: {
-        migrate: 'alter'
-        //migrate: 'safe'
+        //migrate: 'alter'
+        migrate: 'safe'
     },
 };
 
