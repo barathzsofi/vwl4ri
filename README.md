@@ -22,3 +22,28 @@
     
     - Használati eset diagram:
         ![Használati eset diagram](public/HasznEsD.png)
+    
+    - Folyamatok pontos menete:
+        + keresés felvitele
+        + könyv módosítása
+        + könyv törlése
+        
+            ![Keresés felvitelének folyamata](public/HasznEsD.png)
+
+
+##Tervezés
+
+1. Architektúra terv
+    - Komponensdiagram
+    - Oldaltérkép
+    - Végpontok
+
+2. Felhasználóifelület-modell
+    - Oldalvázlatok
+
+3. Osztálymodell
+    - Adatmodell
+    - Adatbázisterv
+    - Állapotdiagram
+
+4. Dinamikus működés
