@@ -99,3 +99,9 @@
 
 4. Dinamikus működés
     - Szekvenciadiagram
+
+##Implementáció
+
+##Tesztelés
+
+##Felhasználói dokumentáció
