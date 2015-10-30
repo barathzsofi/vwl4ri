@@ -2,7 +2,7 @@
 
 ##Követelményanalízis
 
-###1. Követelmények összegyűjtése
+1. Követelmények összegyűjtése
 
     - Funkcionális elvárások
         + Könyvkeresésre kérést lehet megadni
@@ -15,7 +15,7 @@
         + Gyors működés
         + Biztonságos működés: jelszavak tárolása, funkciókhoz való hozzáférés.
 
-###3. Használatieset-modell
+2. Használatieset-modell
     - Szerepkörök:
         + Vendég: Kezdőoldalt megnézheti, regisztrálni tud
         + Felhasználó: A vendég szerepkörén túl kérést tud leadni, és leadott kéréseit meg tudja tekinteni
@@ -34,7 +34,7 @@
 
 ##Tervezés
 
-###1. Architektúra terv
+1. Architektúra terv
     - Komponensdiagram
     
     - Oldaltérkép
@@ -54,12 +54,12 @@
 
     - Végpontok
 
-###2. Felhasználóifelület-modell
+2. Felhasználóifelület-modell
     - Oldalvázlatok
 
-###3. Osztálymodell
+3. Osztálymodell
     - Adatmodell
     - Adatbázisterv
     - Állapotdiagram
 
-###4. Dinamikus működés
+4. Dinamikus működés
