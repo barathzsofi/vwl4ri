@@ -86,10 +86,15 @@
 
 3. Osztálymodell
     - Adatmodell
+    
         ![Adatmodell](public/adatmodell.png)
+
     - Adatbázisterv
+    
         ![Adatbázisterv](public/adatbterv.png)
+        
     - Állapotdiagram
+    
         ![Állapotdiagram](public/allapotdiagram.png)
 
 4. Dinamikus működés
