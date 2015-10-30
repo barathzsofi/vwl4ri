@@ -25,8 +25,8 @@
     
     - Folyamatok pontos menete:
         + keresés felvitele
-        + könyv módosítása
-        + könyv törlése
+        + keresés módosítása
+        + keresés törlése
         
         Keresés felvitelének folyamata:
             ![Keresés felvitelének folyamata](public/folymeghat.jpg)
@@ -44,18 +44,35 @@
             - Főoldal
             - Bejelentkezés
         
-        + Bejelentő
+        + Felhasználó
         
             - Főoldal
             - Bejelentkezés/Kijelentkezés
             - Kereséslista
                 + új keresés
                 + keresés módosítása
+                + keresés törlése
 
     - Végpontok
+        GET /: főoldal
+        GET /login: bejelentkező oldal
+        POST /login: bejelentkezési adatok felküldése
+        GET /login/signup: regisztáló oldal
+        POST /login/signup: regisztrálási adatok felküldése
+        GET /books/list: kereséslista oldal
+        GET /books/new: új keresés felvitele
+        POST /books/new: új keresés felvitele, adatok küldése
+        GET /books/:id: keresés adatait megváltoztató oldal
+        POST /books/:id: megváltoztatott adatok felküldése
+        GET /delete/:id: keresés törlése
+        
 
 2. Felhasználóifelület-modell
     - Oldalvázlatok
+    
+    ![Kezdőlap](public/home.jpg)
+    ![Keresések listázása](public/lista.jpg)
+    ![Új keresés felvétele](public/new.jpg)
 
 3. Osztálymodell
     - Adatmodell
@@ -63,3 +80,4 @@
     - Állapotdiagram
 
 4. Dinamikus működés
+    - Szekvenciadiagram
