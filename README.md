@@ -2,7 +2,7 @@
 
 ##Követelményanalízis
 
-1. Követelmények összegyűjtése:
+###1. Követelmények összegyűjtése
 
     - Funkcionális elvárások
         + Könyvkeresésre kérést lehet megadni
@@ -15,7 +15,7 @@
         + Gyors működés
         + Biztonságos működés: jelszavak tárolása, funkciókhoz való hozzáférés.
 
-3. Használatieset-modell
+###3. Használatieset-modell
     - Szerepkörök:
         + Vendég: Kezdőoldalt megnézheti, regisztrálni tud
         + Felhasználó: A vendég szerepkörén túl kérést tud leadni, és leadott kéréseit meg tudja tekinteni
@@ -28,22 +28,38 @@
         + könyv módosítása
         + könyv törlése
         
+        Keresés felvitelének folyamata:
             ![Keresés felvitelének folyamata](public/folymeghat.jpg)
 
 
 ##Tervezés
 
-1. Architektúra terv
+###1. Architektúra terv
     - Komponensdiagram
+    
     - Oldaltérkép
+    
+        + Publikus:
+        
+            - Főoldal
+            - Bejelentkezés
+        
+        + Bejelentő
+        
+            - Főoldal
+            - Bejelentkezés/Kijelentkezés
+            - Kereséslista
+                + új keresés
+                + keresés módosítása
+
     - Végpontok
 
-2. Felhasználóifelület-modell
+###2. Felhasználóifelület-modell
     - Oldalvázlatok
 
-3. Osztálymodell
+###3. Osztálymodell
     - Adatmodell
     - Adatbázisterv
     - Állapotdiagram
 
-4. Dinamikus működés
+###4. Dinamikus működés
