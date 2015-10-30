@@ -28,7 +28,7 @@
         + könyv módosítása
         + könyv törlése
         
-            ![Keresés felvitelének folyamata](public/HasznEsD.png)
+            ![Keresés felvitelének folyamata](public/folymeghat.jpg)
 
 
 ##Tervezés
