@@ -28,7 +28,8 @@ var config = {
             password: 'ubuntu',
             /*url: process.env.DATABASE_URL,
             pool: false,
-            */ssl      : true,
+            */
+            ssl      : true,
         }
     },
     defaults: {

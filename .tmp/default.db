@@ -4,43 +4,103 @@
     "book": [
       {
         "status": "new",
-        "writer": "steph",
-        "booktitle": "anna",
+        "writer": "Stephanie P.",
+        "booktitle": "Anna",
         "date": "2015-10-28T15:31:53.607Z",
         "createdAt": "2015-10-28T15:31:53.608Z",
-        "updatedAt": "2015-10-29T15:19:45.435Z",
+        "updatedAt": "2015-10-31T15:40:52.829Z",
         "id": 15,
         "other": "angol, dedikált"
       },
       {
         "status": "new",
-        "writer": "steph",
-        "booktitle": "isla",
+        "writer": "Stephanie P.",
+        "booktitle": "Lola",
         "date": "2015-10-28T15:32:13.420Z",
         "createdAt": "2015-10-28T15:32:13.421Z",
-        "updatedAt": "2015-10-29T15:19:26.155Z",
+        "updatedAt": "2015-10-31T15:41:04.060Z",
         "id": 17,
         "other": "papírkötésű"
       },
       {
         "status": "new",
-        "writer": "steph",
-        "booktitle": "lola",
+        "writer": "Stephanie P.",
+        "booktitle": "Isla",
         "date": "2015-10-28T20:37:54.463Z",
         "createdAt": "2015-10-28T20:37:54.466Z",
-        "updatedAt": "2015-10-29T15:19:06.667Z",
+        "updatedAt": "2015-10-31T15:41:17.821Z",
         "id": 31,
         "other": "angol"
       },
       {
         "status": "new",
-        "writer": "jk",
-        "booktitle": "hp7",
+        "writer": "J.K. Rowling",
+        "booktitle": "HP 1.",
         "other": "angol, már használt",
         "date": "2015-10-29T13:37:18.094Z",
         "createdAt": "2015-10-29T13:37:18.097Z",
-        "updatedAt": "2015-10-29T15:18:44.756Z",
+        "updatedAt": "2015-10-31T15:41:43.890Z",
         "id": 53
+      },
+      {
+        "status": "new",
+        "writer": "J.K. Rowling",
+        "booktitle": "HP2.",
+        "other": "angol",
+        "date": "2015-10-31T15:42:10.790Z",
+        "createdAt": "2015-10-31T15:42:10.792Z",
+        "updatedAt": "2015-10-31T15:42:10.792Z",
+        "id": 60
+      },
+      {
+        "status": "new",
+        "writer": "J.K. Rowling",
+        "booktitle": "HP 3.",
+        "other": "dedikált",
+        "date": "2015-10-31T15:42:29.598Z",
+        "createdAt": "2015-10-31T15:42:29.600Z",
+        "updatedAt": "2015-10-31T15:42:29.600Z",
+        "id": 61
+      },
+      {
+        "status": "new",
+        "writer": "J.K. Rowling",
+        "booktitle": "HP 4.",
+        "other": "használt is lehet",
+        "date": "2015-10-31T15:43:02.354Z",
+        "createdAt": "2015-10-31T15:43:02.355Z",
+        "updatedAt": "2015-10-31T15:43:02.355Z",
+        "id": 62
+      },
+      {
+        "status": "new",
+        "writer": "Andy Weir",
+        "booktitle": "The Martian",
+        "other": "angol, Movie Tie-In",
+        "date": "2015-10-31T15:49:12.697Z",
+        "createdAt": "2015-10-31T15:49:12.698Z",
+        "updatedAt": "2015-10-31T15:49:12.698Z",
+        "id": 63
+      },
+      {
+        "status": "new",
+        "writer": "ads",
+        "booktitle": "ads",
+        "other": "ads",
+        "date": "2015-10-31T15:50:45.224Z",
+        "createdAt": "2015-10-31T15:50:45.226Z",
+        "updatedAt": "2015-10-31T15:50:45.226Z",
+        "id": 64
+      },
+      {
+        "status": "new",
+        "writer": "qwe",
+        "booktitle": "qwe",
+        "other": "-",
+        "date": "2015-10-31T15:50:59.619Z",
+        "createdAt": "2015-10-31T15:50:59.620Z",
+        "updatedAt": "2015-10-31T15:50:59.620Z",
+        "id": 65
       }
     ],
     "user": [
@@ -204,7 +264,7 @@
   },
   "counters": {
     "book": {
-      "id": 58
+      "id": 65
     },
     "comment": {},
     "user": {
