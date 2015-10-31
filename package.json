@@ -1,7 +1,6 @@
 {
   "name": "chat-example",
   "version": "0.0.0",
-  
   "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
   "main": "server.js",
   "author": "Mostafa Eweda <mo.eweda@gmail.com>",
@@ -24,12 +23,17 @@
     "waterline": "^0.10.26"
   },
   "scripts": {
+    "test": "node_modules/mocha/bin/mocha models/user.test.js",
+    "watch-test": "node_modules/mocha/bin/mocha --watch models/user.test.js",
     "start": "node server.js"
   },
   "engines": {
     "node": "4.1.1"
   },
-  
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3",
+    "zombie": "^4.2.1"
+  },
   "license": "ISC"
 }

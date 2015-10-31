@@ -97,8 +97,6 @@
     
         ![Állapotdiagram](public/allapotdiagram.png)
 
-4. Dinamikus működés
-    - Szekvenciadiagram
 
 ##Implementáció
 1. Fejlesztői környezet bemutatása
@@ -113,18 +111,30 @@
 
 ##Tesztelés
 
+
+1. Egységtesztek:
+
+    User modell tesztelve (models/user.test.js)
+    
+    ![User egységtesztje](public/egysegt.jpg)
+
+2. Tesztesetek felsorolása
+
+    - Felhasználó létrehozása
+    - Keresés
+    - ValidPassword metódus
+
+
+
 ##Felhasználói dokumentáció
 
-1. A futtatáshoz ajánlott hardver-, szoftver konfiguráció
-    
-
-2. Telepítés lépései: hogyan kerül a Githubról a célgépre a program
+1. Telepítés lépései: hogyan kerül a Githubról a célgépre a program
     Modell-nézet-vezérlő minta van alkalmazva, azaz az alkalmazásszerver ebből a három részből áll,
     a kliens az alkalmazásszervernek kérést add, amit először a vezérlő kap meg. Ez átadja a modellnek, ami az adatbázisból kéri le
     a szükséges adatokat. Ezután a kérés visszakerül a vezérlőhöz, az átadja a nézetnek, ahol a honlap szerkezetének kialakítása történik meg.
     Ezt követően nyílik meg az oldal.
 
-3. A program használata
+2. A program használata
     Az almalmazás használatához regisztráció szükséges, amit a Bejelentkezés-nél lehet megtenni, a Regisztráció feliratú gombra kattintva.
     Regisztráció során a vezetéknevet, keresztnevet, felhasználónevet és a jelszót kötelező megadni. Regisztráció után automatikus a bejelentkeztetés.
     A keresett könyvek listáját megtekinteni, szerkeszteni a Keresett könyvek menüpontban lehet. Itt a keresések ki vannak listázva. Új keresést az Új könyv keresése gombbal lehet megadni,
@@ -134,5 +144,4 @@
     A kérés felvitele után újra a lista jön be. A keresés törléséhez a törölni kívánt sorban a Tör.-re kell kattintani, módosításhoz pedig a Mód.-ra.
     A törlés automatikusan megtörténik. Módosításhoz az új felvételéhez hasonló oldal jelenik meg, ahol meg lehet adni a módosítani kivánt tulajdonságokat.
     Csak az a tulajdonság módosul, amihez írunk valamit, a többi változatlan marad. Kijelentkezni a Kilépés menüponttal lehet.
-
 

@@ -147,6 +147,39 @@
         "createdAt": "2015-10-29T15:51:17.318Z",
         "updatedAt": "2015-10-29T15:51:17.318Z",
         "id": 4
+      },
+      {
+        "surname": "abc1",
+        "forename": "abc1",
+        "username": "abc1",
+        "password": "$2a$10$SImRcS8EYAHgVrhejys2h.FnikRL9t3Ea3RoBdFZWHe5J30FIQGUu",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-31T16:51:43.332Z",
+        "updatedAt": "2015-10-31T16:51:43.332Z",
+        "id": 5
+      },
+      {
+        "surname": "abc2",
+        "forename": "abc2",
+        "username": "abc2",
+        "password": "$2a$10$fpJeDL4llSWkusnZcrr8AO0L2F7dwQBghrWi4ayDslgVI4j8x/hKm",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-31T17:29:41.886Z",
+        "updatedAt": "2015-10-31T17:29:41.886Z",
+        "id": 6
+      },
+      {
+        "surname": "abc3",
+        "forename": "abc3",
+        "username": "abc3",
+        "password": "$2a$10$W12dR4flMDm82dTgXLh7F.Vh/CtckI1RSjfTEKHVbME71e4M6EiWS",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-31T17:30:38.571Z",
+        "updatedAt": "2015-10-31T17:30:38.571Z",
+        "id": 7
       }
     ]
   },
@@ -268,7 +301,7 @@
     },
     "comment": {},
     "user": {
-      "id": 4
+      "id": 7
     }
   }
 }
