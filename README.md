@@ -18,7 +18,7 @@
 2. Használatieset-modell
     - Szerepkörök:
         + Vendég: Kezdőoldalt megnézheti, regisztrálni tud
-        + Felhasználó: A vendég szerepkörén túl kérést tud leadni, és leadott kéréseit meg tudja tekinteni
+        + Felhasználó: A vendég szerepkörén túl kérést tud leadni, és leadott kéréseit meg tudja tekinteni, módosítani és törölni tudja azokat
     
     - Használati eset diagram:
         ![Használati eset diagram](public/HasznEsD.png)
@@ -35,8 +35,7 @@
 ##Tervezés
 
 1. Architektúra terv
-    - Komponensdiagram
-    
+
     - Oldaltérkép
     
         + Publikus:
@@ -100,6 +99,7 @@
 
 ##Implementáció
 1. Fejlesztői környezet bemutatása
+    
     Cloud 9 webes IDE, ahova Github accounttal való belépés után új workspacet hozhatunk létre (new workspace). Itt egy fájlt futtathatunk például a webes terminálablakból, a node fájlnév paranccsal. 
     
 2. Könyvtárstruktúrában lévő mappák funkiójának bemutatása
